@@ -1,0 +1,47 @@
+body {
+    display: flex;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    flex-direction: column;
+    flex-wrap: wrap;
+    background-color: bisque;
+    justify-content: center;
+    
+}
+
+#submit {
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    cursor: pointer;
+    width: 5%;
+    font-size: 20px;
+}
+
+#searchfield,
+#number {
+    width: 10%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 2px solid green;
+    box-sizing: border-box;
+}
+
+#size,
+#sort {
+    border: 2px solid green;
+}
+
+input[type="text"] {
+    font-size: 20px;
+}
+
+input[type="number"] {
+    font-size: 20px;
+}
+
+#imgContainer {
+    margin-top: 10%;
+}

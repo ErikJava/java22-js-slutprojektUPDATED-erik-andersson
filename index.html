@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/script.js" defer></script>
+    <title>Image Gallery</title>
+    <base href="/">
+</head>
+
+<body>
+    <form>
+        <label for="searchfield">Search for image:</label>
+        <br>
+        <input type="text" name="text" id="searchfield"></input>
+        <br>
+        <label for="searchfield">Amount:</label>
+        <br>
+        <input type="number" name="number" id="number"></input>
+        <br>
+        <select id="size" name="size">
+            <option value="m">Small</option>
+            <option value="z">Medium</option>
+            <option value="b">Large</option>
+        </select>
+
+        <select id="sort" name="sort">
+            <option value="relevance">Relevance</option>
+            <option value="date-posted-desc">Date posted</option>
+            <option value="interestingness-desc">Interestingness</option>
+        </select>
+        <br>
+        <br>
+        <br>
+        <button id="submit">Search</button>
+    </form>
+
+    <h1 id="errorMessage"></h1>
+    <div id="imgContainer"></div>
+    
+
+</body>
+
+</html>
